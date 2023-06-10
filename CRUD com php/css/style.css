@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    font-family: Arial, sans-serif;
+    color: #fff;
+ }
+
+ .container {
+    text-align: center;
+ }
+
+ .voltar {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+ }
+
+ .voltar:hover {
+    background-color: #e6e6e6;
+ }

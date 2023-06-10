@@ -1,0 +1,80 @@
+/* Arquivo: listagemItens.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.delete-button, .edit-button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button {
+    background-color: #dc3545; /* Cor de fundo vermelha */
+}
+
+.edit-button {
+    background-color: #ffc107; /* Cor de fundo amarela */
+}
+
+.delete-button:hover, .edit-button:hover {
+    background-color: #ff0000; /* Cor de fundo vermelha mais escura ao passar o mouse */
+}
+
+.edit-button:hover {
+    background-color: #ffae00; /* Cor de fundo amarela mais escura ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
